@@ -7,6 +7,20 @@
  */
 
 
+let mots;
+ function words(strings){
+    mots=strings.split(" ");
+
+    for (let i=0; i<mots.length-1; i++){
+        mots[i]+="";
+    }
+    return mots;
+}
+
+
+
+
+
 //* Begin of tests
 const assert = require('assert')
 

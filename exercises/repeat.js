@@ -8,7 +8,17 @@
  *
  */
 
-//* Begin of tests
+
+function repeat(string, times) {
+    var repeatedString = "";
+    while (times > 0) {
+      repeatedString += string;
+      times--;
+    }
+    return repeatedString;
+  }
+
+ //* Begin of tests
 const assert = require('assert')
 
 assert.strictEqual(typeof repeat, 'function')

@@ -7,6 +7,19 @@
  */
 
 
+function sentence(strings){
+    let total=''
+    for (let i=0; i<strings.length; i++){
+        total+=strings[i];
+        if (i<strings.length-1){
+            total+=' '
+        }
+    }
+    return total;
+
+}
+
+
 //* Begin of tests
 const assert = require('assert')
 
