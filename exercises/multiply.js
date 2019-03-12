@@ -15,7 +15,6 @@
         let answer = 0
         if (a<0){
             a=-a
-            
             for(var i = 0; i < a ; i++){
                 answer += b
                 }
@@ -26,16 +25,8 @@
             for(var i = 0; i < a ; i++){
                 answer += b
                 }
-        } return answer
-        
-        
-        
-        
-       
-        
-        
-        
-      }
+        } return answer 
+    }
 
 
 //* Begin of tests

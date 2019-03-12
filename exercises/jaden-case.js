@@ -12,8 +12,15 @@
 
 
 
+ function jadenCase(string) 
+{
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+
 //* Begin of tests
 const assert = require('assert')
+assert.strictEqual(typeof jadenCase, 'function')
+assert.strictEqual(jadenCase('string'), 'String')
 
-assert.fail('You must write your own tests')
-// End of tests */
+// End of t ests */
